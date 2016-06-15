@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Adivinhe a Palavra</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="btn_jogar">Começar nova partida</string>
+    <string name="btn_salvar">Salvar sua pontuação</string>
+    <string name="btn_novapergunta">Contribua com a sua pergunta!</string>
+    <string name="btn_rank">Maiores pontuações</string>
+    <string name="btn_comparar">Verificar</string>
+    <string name="txt_hint">Digite a resposta aqui</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

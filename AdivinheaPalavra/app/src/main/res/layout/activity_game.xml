@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.raphael.diego.palavras.GameActivity"
+    android:background="@color/background_material_dark">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text exemplo para testes "
+        android:id="@+id/txvDica"
+        android:textSize="25sp"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:layout_below="@+id/txtRodada"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPalavra"
+        android:inputType="textNoSuggestions"
+        android:layout_marginTop="60dp"
+        android:hint="@string/txt_hint"
+        android:layout_below="@+id/txvDica"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textColorHint="@color/abc_primary_text_material_dark" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_comparar"
+        android:id="@+id/btnComparar"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/txtPalavra"
+        android:layout_alignRight="@+id/txtPalavra"
+        android:layout_alignEnd="@+id/txtPalavra"
+        android:textColor="@color/abc_primary_text_material_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtPontuação"
+        android:textSize="25sp"
+        android:text="Pontuação: 000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/abc_primary_text_material_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3/3"
+        android:id="@+id/txtTentativas"
+        android:textSize="35sp"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:layout_above="@+id/txvDica2"
+        android:layout_toLeftOf="@+id/btnComparar"
+        android:layout_toStartOf="@+id/btnComparar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Desbloquear"
+        android:id="@+id/txvDica2"
+        android:textSize="25sp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/btnComparar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/abc_primary_text_material_dark" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-100 "
+        android:id="@+id/btnDica2"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:layout_below="@+id/txvDica2"
+        android:layout_alignRight="@+id/txvDica2"
+        android:layout_alignEnd="@+id/txvDica2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0/5"
+        android:id="@+id/txtRodada"
+        android:textSize="35sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/abc_primary_text_material_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Dica Adicional"
+        android:id="@+id/textView"
+        android:textSize="25sp"
+        android:layout_alignBottom="@+id/txvDica2"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/abc_primary_text_material_dark" />
+
+</RelativeLayout>
