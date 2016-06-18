@@ -38,7 +38,7 @@ public class NovaPerguntaActivity extends ActionBarActivity {
                 String d = dica.getText().toString();
 
                 EditText resposta = (EditText) findViewById(R.id.editResposta);
-                String r = resposta.getText().toString();
+                String r = resposta.getText().toString().toLowerCase();
 
                 String resultado = crud.inserirPergunta(p,d,r);
                 Toast.makeText(getApplicationContext(), resultado, Toast.LENGTH_LONG).show();
